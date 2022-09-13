@@ -14,8 +14,18 @@ Audacity คือ **crossplatform multitrack audio editor and recorder**.
 
 **Layer ส่วนที่ติดต่อกับ Hardware** ใช้ Lib PortAudio (provides a low-level audio interface in a cross-platform way) โดยในส่วนนี้ทำหน้าที่ติดต่อกับ OS เพื่อใช้งาน Interface ต่างๆของ Hardwawre
 
-
 ### Quality attribute scenarios
+
+#### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
+```
+Source(ผู้ใช้งาน) -> Stimulus(ต้องการเพิ่มเสียงในไฟล์เสียง) -> Environment() -> Response() -> Response Measure()
+```
+
+```
+
+```
+
+```
 
 ```
 
