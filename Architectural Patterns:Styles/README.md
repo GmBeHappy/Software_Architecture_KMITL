@@ -22,15 +22,14 @@ Source(ผู้ใช้งาน) -> Stimulus(ต้องการเพิ�
 ```
 
 ```
-
+Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
 ```
-
+Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
-```
 ## Authors
 
-- [@gmbehappy](https://www.github.com/gmbehappy) วิชยุตม์ เกิดไชย 63010881
+[@gmbehappy](https://www.github.com/gmbehappy) วิชยุตม์ เกิดไชย 63010881
 
