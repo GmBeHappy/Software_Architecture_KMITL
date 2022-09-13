@@ -1,5 +1,10 @@
 # Architectural Patterns/Styles
 
+## Authors
+
+[@gmbehappy](https://www.github.com/gmbehappy) วิชยุตม์ เกิดไชย 63010881
+
+
 ## Audacity
 
 Audacity คือ **crossplatform multitrack audio editor and recorder**.
@@ -60,7 +65,28 @@ Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
-## Authors
+## Jitsi
 
-[@gmbehappy](https://www.github.com/gmbehappy) วิชยุตม์ เกิดไชย 63010881
+Jitsi คือ open-source projects สำหรับการสร้าง video conference และ chat โดยใช้ WebRTC และ XMPP ซึ่งเป็นโปรเจคที่เปิดโอกาสให้ผู้ใช้งานสามารถเข้ามาเพิ่มเติม แก้ไข และปรับปรุงโปรเจคได้
+
+### architectural patterns/styles
+
+![image](https://raw.githubusercontent.com/jitsi/handbook/master/docs/assets/ArchitectureDiagram.png)
+
+รูปแบบสถาปัตยกรรมที่ Jitsi ใช้คือรูปแบบ **Layer architectural**
+
+### Quality attribute scenarios
+
+#### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
+```
+Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+```
+
+```
+Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+```
+
+```
+Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+```
 
