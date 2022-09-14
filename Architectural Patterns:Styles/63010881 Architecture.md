@@ -75,6 +75,16 @@ Jitsi คือ open-source projects สำหรับการสร้าง 
 
 รูปแบบสถาปัตยกรรมที่ Jitsi ใช้คือรูปแบบ **Layer architectural**
 
+**Jitsi Meet** WebRTC compatible JavaScript application that uses Jitsi Videobridge to provide high quality, scalable video conferences. Build upon React and React Native
+
+**Jitsi Videobridge (jvb)** WebRTC compatible server designed to route video streams amongst participants in a conference
+
+**Jitsi Conference Focus (jicofo)** server-side focus component used in Jitsi Meet conferences that manages media sessions between each of the participants and the videobridge
+
+**Jitsi Gateway to SIP (jigasi)** server-side application that allows regular SIP clients to join Jitsi Meet conferences
+
+**Jitsi Broadcasting Infrastructure (jibri)** tools for recording and/or streaming a Jitsi Meet conference that works by launching a Chrome instance rendered in a virtual framebuffer and capturing and encoding the output with ffmpeg
+
 ### Quality attribute scenarios
 
 #### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
