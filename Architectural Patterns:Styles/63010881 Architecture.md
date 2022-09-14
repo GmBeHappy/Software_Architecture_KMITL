@@ -115,18 +115,30 @@ Jitsi คือ open-source projects สำหรับการสร้าง 
 
 ### Quality attribute scenarios
 
-#### Scenario 1: 
+#### Scenario 1: Usability
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน) 
+Stimulus(video conference ผ่าน Jitsi) 
+Environment(Jitsi Meet, Jitsi Videobridge, Jitsi Conference Focus, Jitsi Gateway to SIP, Jitsi Broadcasting Infrastructure) 
+Response(สำเร็จหรือไม่) 
+Response Measure(สามารถเข้าร่วม video conference ได้) 
 ```
 
-#### Scenario 2: 
+#### Scenario 2: Performance
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน)
+Stimulus(คำสั่งสร้าง video conference จากผู้ใช้งาน)
+Environment(Jitsi Meet, Jitsi Videobridge, Jitsi Conference Focus, Jitsi Gateway to SIP, Jitsi Broadcasting Infrastructure)
+Response(เวลาที่ใช้ในการสร้าง video conference)
+Response Measure(Latency)
 ```
 
-#### Scenario 3: 
+#### Scenario 3: Security
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน)
+Stimulus(เข้าร่วม video conference ที่ไม่ได้รับอนุญาติผ่าน Jitsi)
+Environment(Jitsi Meet, Jitsi Videobridge, Jitsi Conference Focus, Jitsi Gateway to SIP, Jitsi Broadcasting Infrastructure)
+Response(สำเร็จหรือไม่)
+Response Measure(ไม่สามารถเข้าร่วม video conference ได้)
 ```
 
