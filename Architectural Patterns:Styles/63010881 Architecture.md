@@ -26,10 +26,12 @@ Audacity คือ **crossplatform multitrack audio editor and recorder**.
 Source(ผู้ใช้งาน) -> Stimulus(ต้องการเพิ่มเสียงในไฟล์เสียง) -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 2:
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 3:
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
@@ -52,9 +54,13 @@ Matplotlib คือ ไลบรารี่ที่ครอบคลุม c
 
 ### Quality attribute scenarios
 
-#### Scenario 1: 
+#### Scenario 1: Modifiability
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(Developer) 
+Stimulus(Change Code) 
+Environment(Development time) 
+Response(Modification is made with no side effects) 
+Response Measure(In 1 hours)
 ```
 
 #### Scenario 2: 
