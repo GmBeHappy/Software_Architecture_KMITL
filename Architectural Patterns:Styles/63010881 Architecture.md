@@ -21,19 +21,31 @@ Audacity คือ **crossplatform multitrack audio editor and recorder**.
 
 ### Quality attribute scenarios
 
-#### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
+#### Scenario 1: Usability
 ```
-Source(ผู้ใช้งาน) -> Stimulus(ต้องการเพิ่มเสียงในไฟล์เสียง) -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน)
+Stimulus(เรียนรู้การใช้งาน)
+Environment(Runtime)
+Response(ช่วยเหลือการใช้งาน)
+Response Measure(ความพึงพอใจ)
 ```
 
-#### Scenario 2:
+#### Scenario 2: Integrability
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน)
+Stimulus(ต้องการเพิ่ม Plugin ให้กับ Audacity)
+Environment(Deployment, Deployment, Runtime, Integration)
+Response(New Configuration)
+Response Measure(มี Plugin ใหม่)
 ```
 
-#### Scenario 3:
+#### Scenario 3: Performance
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(Hacker)
+Stimulus(Library ที่ใช้งานไม่ปลอดภัย)
+Environment(Plugin Online)
+Response(Data, Resource)
+Response Measure(Intrustion detection devices)
 ```
 
 ## Matplotlib
@@ -56,21 +68,29 @@ Matplotlib คือ ไลบรารี่ที่ครอบคลุม c
 
 #### Scenario 1: Modifiability
 ```
-Source(Developer) 
-Stimulus(Change Code) 
-Environment(Development time) 
-Response(Modification is made with no side effects) 
-Response Measure(In 1 hours)
+Source(ผู้พัฒนา) 
+Stimulus(ต้องการเพิ่มคุณสมบัติใหม่) 
+Environment(เวลาที่ใช้ในการพัฒนา) 
+Response(ระบบที่สามารถเพิ่มคุณสมบัติใหม่ได้) 
+Response Measure(เวลาที่ใช้ในการพัฒนา) 
 ```
 
-#### Scenario 2: 
+#### Scenario 2: Usability
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน) 
+Stimulus(ใช้งาน matplotlib ในการสร้างกราฟด้วย python) 
+Environment(Deployment, Deployment, Runtime, Integration) 
+Response(สำเร็จหรือไม่) 
+Response Measure(มีการแสดงผล) 
 ```
 
-#### Scenario 3: 
+#### Scenario 3: Performance
 ```
-Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
+Source(ผู้ใช้งาน) 
+Stimulus(คำสั่งสร้างกราฟจากผู้ใช้งาน) 
+Environment(Deployment, Deployment, Runtime, Integration) 
+Response(เวลาที่ใช้ในการสร้างกราฟ) 
+Response Measure(Latency)
 ```
 
 ## Jitsi
