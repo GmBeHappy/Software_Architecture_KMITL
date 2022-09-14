@@ -52,15 +52,17 @@ Matplotlib คือ ไลบรารี่ที่ครอบคลุม c
 
 ### Quality attribute scenarios
 
-#### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
+#### Scenario 1: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 2: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 3: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
@@ -87,15 +89,17 @@ Jitsi คือ open-source projects สำหรับการสร้าง 
 
 ### Quality attribute scenarios
 
-#### Scenario 1: การเพิ่มเสียงให้กับไฟล์เสียง
+#### Scenario 1: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 2: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
 
+#### Scenario 3: 
 ```
 Source() -> Stimulus() -> Environment() -> Response() -> Response Measure()
 ```
